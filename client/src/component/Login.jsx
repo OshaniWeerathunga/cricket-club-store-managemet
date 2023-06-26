@@ -20,7 +20,7 @@ function Login() {
         const { email, password } = values;
 
         if( email == 'admin@123' && password == '123'){
-            navigate('/');
+            navigate('/dashboard');
         }
         else {
             alert('error');

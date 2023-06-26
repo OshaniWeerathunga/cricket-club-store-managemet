@@ -11,24 +11,11 @@ import { BrowserRouter, Routes, Route} from 'react-router-dom';
 import Login from './component/Login';
 import Dashboard from './component/Dashboard';
 import CommonPage from './component/CommonPage';
+import Profile from './component/Profile';
 
 
 function App() {
-  /*
-  return (
-    <>
-    
-      <Navbar/>
-      <Routes>
-        <Route exact path='/' Component={Home}/>
-        <Route exact path='/addnew' Component={AddItems}/>
-        <Route exact path='/edit/:id' Component={Edit}/>
-        <Route exact path='/view/:id' Component={View}/>
-      </Routes>
-      
-    </>
-  );
-  */
+
 
   return(
     <BrowserRouter>
@@ -37,6 +24,7 @@ function App() {
       <Route path='/' element={<Dashboard/>}>
         <Route path='' element={<CommonPage/>}></Route>
         <Route path='/items' element={<Home/>}></Route>
+        <Route path='/profile' element={<Profile/>}></Route>
         <Route exact path='/addnew' Component={AddItems}/>
         <Route exact path='/edit/:id' Component={Edit}/>
         <Route exact path='/view/:id' Component={View}/>

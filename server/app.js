@@ -9,13 +9,7 @@ const router = require("./routes/router");
 
 const port = process.env.PORT || 8003;
 
-app.use(cors(
-    {
-        origin: ["https://olympic-ground-app-3hp7.vercel.app"],
-        methods: ["POST","GET"],
-        credentials: true
-    }
-));
+app.use(cors());
 app.use(express.json());
 
 app.get("/",(req,res)=>{

@@ -11,7 +11,7 @@ function CommonPage() {
 
 
             <div className='mt-4 px-5 pt-3'>
-                <h3>List of Admins</h3>
+                <h3>Cricket Grounds</h3>
                 <table className='table'>
                     <tbody>
                         <tr>
