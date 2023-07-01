@@ -1,4 +1,11 @@
+MERN Full Stack Inventory Management Application.
+Technologies - React js
+               Node js
+               Express
+               Mongodb
 
+
+               
 ![login page](https://github.com/OshaniWeerathunga/cricket-club-store-managemet/assets/48274910/df55991b-33d5-4a86-a46e-c3f0f01557da)
 
 ![dashboard](https://github.com/OshaniWeerathunga/cricket-club-store-managemet/assets/48274910/0610c4e5-cde2-4e43-91c6-becbaf72f127)
